@@ -3,7 +3,7 @@ var proxy = require('http-proxy-middleware')
 module.exports = {
   siteMetadata: {
     title: 'dehioのブログ',
-    author: 'dehio_'
+    author: 'dehio_',
     description:
       'これはテストです',
     siteurl: 'https://dehio.work',
