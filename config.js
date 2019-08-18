@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© 2019 dehio_ All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-145860915-1',
   useKatex: false,
   menu: [
     {
