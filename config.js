@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'dehio blog',
   subtitle: 'test',
-  copyright: '© 2019 dehio_ All rights reserved.',
+  copyright: '© 2020 dehio_ All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-145860915-1',
@@ -33,7 +33,7 @@ module.exports = {
     contacts: {
       email: 'hkawaras@gmail.com',
       telegram: '#',
-      twitter: 'dehio_',
+      twitter: 'h_kwrsk',
       github: '#',
       rss: '#',
     }
