@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'dehio blog',
+  title: 'h_kwrskの気ままなお試しBlog',
   subtitle: 'test',
   copyright: '© 2020 dehio_ All rights reserved.',
   disqusShortname: '',
@@ -27,7 +27,7 @@ module.exports = {
 **/
   ],
   author: {
-    name: 'dehio_',
+    name: 'h_kwrsk',
     photo: '/photo.jpg',
     bio: '静岡県浜松市出身で現在は名古屋在住。趣味なことを中心にアウトプットしていくためのサイト。',
     contacts: {
