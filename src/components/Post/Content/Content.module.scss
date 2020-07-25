@@ -36,6 +36,10 @@
           @include line-height(1.5)
         }
 
+       & pre {
+         background-color: #000000
+       }
+
       }
 
     }

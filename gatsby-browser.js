@@ -1,4 +1,6 @@
 'use strict';
 
 require('./src/assets/scss/init.scss');
-require('./static/css/prismjs/theme.min.css');
+
+import 'prismjs/themes/prism-tomorrow.css';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';

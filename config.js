@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'h_kwrskの気ままなお試しBlog',
-  subtitle: 'test',
+  subtitle: '試したことなどを残していくBlog。',
   copyright: '© 2020 dehio_ All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
