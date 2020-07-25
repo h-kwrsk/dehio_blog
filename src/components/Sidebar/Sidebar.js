@@ -20,7 +20,6 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
-        <p className={styles['sidebar__inner-category']}category></p>
         <Copyright copyright={copyright} />
       </div>
     </div>
