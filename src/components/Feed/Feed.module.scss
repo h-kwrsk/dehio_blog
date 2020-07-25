@@ -50,6 +50,8 @@
     }
 
     &-meta {
+      display: flex;
+
       &-time {
         font-size: $typographic-small-font-size;
         color: $color-gray;
@@ -75,6 +77,7 @@
           &:hover,
           &:focus {
             color: $color-primary;
+            border-bottom: 1px solid $color-primary;
           }
 
         }
@@ -93,6 +96,12 @@
         border-bottom: 1px solid $color-primary;
       }
 
+    }
+
+    &-intro {
+      margin-left: auto;
+      font-size: 0.8em;
+      color: $color-gray;
     }
 
   }
