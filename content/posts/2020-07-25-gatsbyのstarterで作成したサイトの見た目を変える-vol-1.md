@@ -2,7 +2,7 @@
 template: post
 title: Gatsbyのstarterで作成したサイトの見た目を変える vol.1
 slug: /posts/20200725-gatsby
-draft: true
+draft: false
 date: 2020-07-25T13:24:37.551Z
 description: |-
   Gatsbyのstarterを利用して作成したこのサイトの見た目を少しずつ変更していく。
