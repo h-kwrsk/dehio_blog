@@ -15,6 +15,13 @@
       @include margin-top(0);
       @include margin-bottom(.5);
 
+      padding: 0.1em 0.4em;/*文字の上下 左右の余白*/
+      color: #494949;/*文字色*/
+      background: #f4f4f4;/*背景色*/
+      border-left: solid 5px #627da1;/*左線*/
+      border-bottom: solid 3px #d7d7d7;/*下線*/
+      border-radius: 0.2em;
+
       &-link {
         color: $color-base;
 
@@ -56,10 +63,14 @@
 
       &-category {
         &-link {
-          font-size: $typographic-small-font-size;
+          font-size: 0.7em;
+          background: #f0f8ff;
           color: $color-gray;
           font-weight: normal;
           text-transform: uppercase;
+          padding: 0.2em;
+          border: solid 0.1em #f0f8ff;
+          border-radius: 0.8em;
 
           &:hover,
           &:focus {
