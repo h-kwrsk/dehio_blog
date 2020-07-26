@@ -41,15 +41,14 @@ $ gatsby develop
 ```
 
 Feed.jsの下記を変更すると、日付の表示を `YYYY/MM/DD` に変更可能。
-
-```javascript:title=src/components/Feed/Feed.js
+```git:title=src/components/Feed/Feed.js
 - {moment(edge.node.frontmatter.date).format('MMMM YYYY')}
 + {moment(edge.node.frontmatter.date).format('YYYY/MM/DD')}
 ```
 
 色合いも変更したいのでCSSも変更する。
 `src/components/Feed/Feed.module.scss` のtimeのcolorを変更する。
-```css
+```css:title=src/components/Feed/Feed.module.scss
 &-time {
   font-size: $typographic-small-font-size;
   color: $color-gray;
@@ -61,7 +60,7 @@ Feed.jsの下記を変更すると、日付の表示を `YYYY/MM/DD` に変更�
 ## タイトルやカテゴリータグのDesign変更
 変更前は殺風景な感じのDesignだったので色をつけたりし、見た目を変更する
 変更箇所はさっきのCSSと同じ `src/components/Feed/Feed.module.scss` でtitleの部分に追記する。
-```css
+```css:title=src/components/Feed/Feed.module.scss
 &-title {
   (略)
   padding: 0.1em 0.4em;
