@@ -6,6 +6,7 @@ import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
+import CategoryList from '../category-list';
 
 type Props = {
   isIndex?: boolean,
@@ -20,6 +21,7 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
+        <CategoryList />
         <Copyright copyright={copyright} />
       </div>
     </div>
