@@ -293,3 +293,27 @@ span.inline-color {
 .command-line-prompt > span[data-prompt]:before {
   content: attr(data-prompt);
 }
+
+.gatsby-code-title {
+  display: block;
+  position: relative;
+  background: #9bcad0;
+  width: auto;
+  top: 10px;
+  text-align: left;
+  text-indent: .5em;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+}
+
+.gatsby-code-title span {
+  display: inline;
+  position: relative;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  color: #eee;
+  background: #777;
+  border-top-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+  padding: 3px;
+  top: 1px;
+}
